@@ -1,0 +1,126 @@
+body{
+
+background-image: url("pic1.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+
+
+} 
+/* .social{
+  padding-left: 20px;
+}
+.social i{
+  font-size: 18px;
+  padding-right:15px;
+}
+.copyright{
+  font-size: 16px;
+  letter-spacing: 4px;
+  padding-right: 20px;
+} */
+/* footer{
+  position: absolute;
+  bottom: 0px;
+  height: 0px;
+  line-height: 0px;
+  display: flex;
+  justify-content: space-between;
+  width:100%;
+}  */
+
+.design{
+	max-width: 500px;
+	padding: 10px 20px;
+	background: #f4f7f8;
+	margin: 10px auto;
+	padding: 20px;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.design input[type="text"],
+.design input[type="password"],
+.design input[type="email"],
+.design textarea,
+.design select {
+  font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+
+}
+.design input[type="submit"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background: #1abc9c;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.design input[type="submit"]:hover
+{
+	background: #109177;
+}
+.design  input[type="text"]:focus,
+.design  input[type="password"]:focus,
+.design  input[type="email"]:focus,
+.design textarea:focus,
+.design select:focus{
+	background: #d2d9dd;
+}
+.design select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.design .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.img{
+  top:-5px;
+  position: absolute;
+  left: 2px;
+}
+
+.g-btn {
+	width: 100% !important;
+	height: 40px !important;
+	line-height: 40px !important;
+	font-size: 15px !important;
+  }
+  .g-btn > div,
+  .g-btn > div > svg {
+	width: 40px !important;
+	height: 38px !important;
+  }
